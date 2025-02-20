@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZA</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./CSS/style.css">
+        <!-- media queries link -->
+        <link rel="stylesheet" href="./CSS/media.css">
+            <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- font awesome icons link -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-thin.css">
+   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-solid.css">
+   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-duotone-regular.css">
+   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/sharp-regular.css">
+
+       <!-- favicon image -->
+       <link rel="icon" type="image/x-icon" href="./favicon-img/pizza-favicon-img.png">
+    
+       <!-- start of aos -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" class="aos-display">
+
+</head>
+<body>
+
+    <header class="header-top">
+        <!-- start of navbar  -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-box">
+                    <div class="nav-logo">
+                        <a href="#"><img src="./IMG/pizza-logo-imges-3.png" loading="lazy" alt="img"></a>
+                    </div>
+
+                    <div class="menu-top">
+                        <ul class="nav-menu">
+                            <li><a href="home.html" class="active">HOME</a></li>
+                            <div class="dropdown">
+                                <a href="about.html" class="dropbtn">ABOUT <i class="fa-solid fa-angle-down"></i></a>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <a href="#casalinga-pizza">CASALINGA</a>
+                                  <a href="#bianca">BIANCA</a>
+                                  <a href="#margherita">MARGHERITA</a>
+                                </div>
+                              </div>
+                                  <li><a href="services.html" id="service" >SERVICES</a></li>
+                                  <div class="dropdown">
+                                    <a href="menu.html" class="dropbtn">MENU <i class="fa-solid fa-angle-down"></i></a>
+                                    <div id="myDropdown" class="dropdown-content">
+                                      <a href="#casalinga-pizza">CASALINGA</a>
+                                      <a href="#bianca">BIANCA</a>
+                                      <a href="#margherita">MARGHERITA</a>
+                                    </div>
+                                  </div>
+                                  <li><a href="blog.html">BLOG</a></li>
+                                  <li><a href="contact.html">CONTACT US</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="nav-icons">
+                        <ul>
+                            <li><a href="#"><i class="fa-regular fa-magnifying-glass"></i></a></li>
+                            <li>
+                                <a href="#"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+                                <div class="cart-icons">
+                                    <div class="add-cart">
+                                        <i class="fa-solid fa-1"></i>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#"><i class="fa-sharp fa-solid fa-user"></i></a></li>
+                        </ul>
+                        <!-- humberger -->
+                        <i class="fa-sharp fa-regular fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar -->
+    </header>
+
+    
+    <main>
+
+                <!-- start of contact-banner -->
+                <section class="contact-banner">
+                    <div class="container">
+                        <div class="contact-banner-text">
+                            <span>contact us</span>
+                        </div>
+                    </div>
+                </section>
+                <!-- end of contact-banner --> 
+
+                
+     <!-- start of contact-us -->
+     <section class="contact-us">
+        <div class="container">
+            <div class="row" id="contact-us-row1">
+                <div class="col100">
+                    <div class="contact-us-text">
+                        <h2>Contact Us</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" id="contact-us-row2">
+                <div class="col25">
+                    <div class="contact-us-title" data-aos-easing="ease" data-aos="zoom-in" data-aos-duration="1500">
+                        <a href="#"><i class="fa-sharp fa-solid fa-location-dot"></i></a>
+                        <span>Address</span>
+                        <ul>
+                            <li>Techno Polis, Salt lake, Kolkata, West Bengal</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col25">
+                    <div class="contact-us-title" data-aos-easing="ease" data-aos="zoom-in" data-aos-duration="1500" id="tel-card">
+                        <a href="tel:1234567896"><i class="fa-sharp fa-solid fa-phone"></i></a>
+                        <span>Phone</span>
+                        <ul>
+                            <li>123-456-789</li>
+                            <li>159-646-769</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col25">
+                    <div class="contact-us-title" data-aos-easing="ease" data-aos="zoom-in" data-aos-duration="1500">
+                        <a href="mailto:info@sitename.com"><i class="fa-sharp fa-solid fa-envelope"></i></a>
+                        <span>Email</span>
+                        <ul>
+                            <li>info@sitename.com</li>
+                            <li>support@sitename.com</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col25">
+                    <div class="contact-us-title" data-aos-easing="ease" data-aos="zoom-in" data-aos-duration="1500">
+                        <a href="#"><i class="fa-sharp fa-regular fa-clock"></i></a>
+                        <span>Open Hours</span>
+                        <ul>
+                            <li>Mon-Fri : 10am-6pm</li>
+                            <li>Sat-Sun : Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="container-fluid">
+                    <div class="contact-us-map">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3683.974271463909!2d88.43521462398533!3d22.58006558269914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sTechno%20Polis%2C%20Salt%20lake%2C%20Kolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1739807719544!5m2!1sen!2sin"  width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                   </div>
+         </div>
+     </section>
+     <!-- end of contact-us -->
+ 
+</main>
+
+
+<!-- start of footer -->
+<footer>
+    <div class="footer-upper">
+        <div class="container">
+            <div class="row">
+                <div class="col30" id="footer-1">
+                    <div class="footer-upper-text">
+                        <div class="footer-logo">
+                            <a href="#"><img src="./IMG/pizza-logo-imges-3.png" loading="lazy" alt="img"></a>
+                        </div>
+
+                        <div class="footer-para">
+                            "Trust your own instinct. Your mistakes might as well be your own, instead of someone else's"
+                        </div>
+
+                        <div class="social-icons">
+                            <ul>
+                                <li data-aos-easing="ease" data-aos="zoom-in" data-aos-duration="1900"><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li data-aos-easing="ease" data-aos="zoom-in" data-aos-duration="1900"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li data-aos-easing="ease" data-aos="zoom-in" data-aos-duration="1900"><a href="https://x.com/?lang=en"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li data-aos-easing="ease" data-aos="zoom-in" data-aos-duration="1900"><a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li data-aos-easing="ease" data-aos="zoom-in" data-aos-duration="1900"><a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-play-store">
+                            <div class="play-store-title">
+                                Download the app
+                            </div>
+
+                            <div class="store">
+                                <ul>
+                                    <li><a href="https://www.apple.com/in/store"><i class="fa-brands fa-apple"></i></a></li>
+                                    <li><a href="https://play.google.com/store/apps?hl=en"><i class="fa-brands fa-google-play"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col20" id="footer-2">
+                    <div class="links">
+                        <span>Quick Links</span>
+                        <div class="links-1">
+                            <ul>
+                                <li><a href="home.html"> HOME</a></li>
+                                <li><a href="about.html"> ABOUT</a></li>
+                                <li><a href="services.html"> SERVICES</a></li>
+                                <li><a href="menu.html"> MENU</a></li>
+                                <li><a href="blog.html"> BLOG</a></li>
+                                <li><a href="contact.html"> CONTACT US</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col20">
+                    <div class="categories">
+                        <span>Categories</span>
+                        <div class="categories-1">
+                            <ul>
+                                <li><a href="CASALINGA"> CASALINGA.</a></li>
+                                <li><a href="SICILIAN"> SICILIAN</a></li>
+                                <li><a href="ROMANA"> ROMANA</a></li>
+                                <li><a href="VIENNESE"> VIENNESE</a></li>
+                                <li><a href="BIANCA"> BIANCA</a></li>
+                                <li><a href="BIANCA"> CHICAGO</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col30">
+                    <div class="contact">
+                        <span class="info">Contact Info</span>
+                        <div class="social-info">
+                            <div class="social-title">
+                                <a href="#"><i class="fa-sharp fa-solid fa-location-dot"></i></a>
+                                    <div class="social-content">
+                                        <a href="#">
+                                            <span class="capitalize">Address:</span>
+                                            <div class="location">
+                                                Techno Polis, Salt lake, BP Block, Sector V, Bidhannagar, Kolkata, West Bengal 700091
+                                            </div>
+                                        </a>
+                                    </div>
+                            </div>
+
+                            <div class="social-title">
+                                <a href="tel:1236547890"><i class="fa-sharp fa-solid fa-phone"></i></a>
+                                    <div class="social-content">
+                                        <a href= "tel:1236547890">
+                                            <span class="capitalize">Telephone:</span>
+                                            <div class="tel-no">
+                                                123 654 7890
+                                            </div>
+                                        </a>
+                                    </div>
+                            </div>
+
+                            <div class="social-title">
+                                <a href="mailto:daulat@gmail.com"><i class="fa-sharp fa-regular fa-envelope"></i></a>
+                                    <div class="social-content">
+                                        <a href="mailto:daulat@gmail.com">
+                                            <span class="capitalize">Email:</span>
+                                            <div class="mail-no">
+                                                daulat@gmail.com
+                                            </div>
+                                        </a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-lower">
+        <div class="container">
+            <div class="row">
+                <div class="col100">
+                    <div class="copyright">
+                        <a href="#"><i class="fa-sharp fa-light fa-copyright"></i> Copyright 2025 <span>PIZZA</span>. All Rights Reserved - Design by Daulat</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- end of footer -->
+    
+
+
+        <!-- *************************JQuery cdn link****************************** -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> 
+
+        <!-- *********************************swiper js link************************************ -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+         $(document).ready(function(){
+            // Initialize first Swiper
+    var swiper1 = new Swiper('.swiper-style1', {
+      spaceBetween: 30,  
+      loop: true,
+      autoplay: {
+            delay: 4500,
+            disableOnInteraction: false,
+          },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+            0: {
+            slidesPerView: 1,
+            },
+            768: {
+            slidesPerView: 1,
+            },
+            1024: {
+            slidesPerView: 1,
+            },
+        },
+    });
+    })
+    </script>
+
+
+
+<script>
+    $(document).ready(function(){
+       // Initialize first Swiper
+var swiper2 = new Swiper('.swiper-style2', {
+ spaceBetween: 30,  
+ loop: true,
+ autoplay: {
+       delay: 4500,
+       disableOnInteraction: false,
+     },
+ pagination: {
+   el: '.swiper-pagination',
+   clickable: true,
+ },
+ breakpoints: {
+       0: {
+       slidesPerView: 1,
+       },
+       768: {
+       slidesPerView: 1,
+       },
+       1024: {
+       slidesPerView: 1,
+       },
+   },
+});
+})
+</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js "></script>  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<script>
+$('.counter').counterUp({
+delay: 10,
+time: 3000
+});
+</script>
+
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>

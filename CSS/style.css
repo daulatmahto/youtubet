@@ -1,0 +1,2660 @@
+@import url('https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* ==============custom scrollbar=========== */
+
+::-webkit-scrollbar{
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(218,0,36);
+}
+
+.fonts{
+    font-family: "Charmonman", serif;
+    font-family: "Arizonia", serif;
+    font-family: "Montserrat", serif;
+    font-family: "Poppins", serif;
+    font-family: "Anton", serif;
+    font-family: "Open Sans", serif;
+    font-family: "Inter", serif;
+    font-family: "Oswald", serif;
+    font-family: "Playfair Display", serif;
+    font-family: "Pacifico", serif;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(40,40,40,1);
+    background-color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", serif;
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.container-fluid{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col100{
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding: 0 15px;
+}
+
+.col60{
+    max-width: 60%;
+    flex: 0 0 60%;
+    padding: 0 15px;
+}
+
+.col55{
+    max-width: 55%;
+    flex: 0 0 55%;
+    padding: 0 15px;
+}
+
+.col50{
+    max-width: 50%;
+    flex: 0 0 50%;
+    padding: 0 15px;
+}
+
+.col45{
+    max-width: 45%;
+    flex: 0 0 45%;
+    padding: 0 15px;
+}
+
+.col40{
+    max-width: 40%;
+    flex: 0 0 40%;
+    padding: 0 15px;
+}
+
+.col33{
+    max-width: 33%;
+    flex: 0 0 33%;
+    padding: 0 15px;
+}
+
+.col30{
+    max-width: 30%;
+    flex: 0 0 30%;
+    padding: 0 15px;
+}
+
+.col20{
+    max-width: 20%;
+    flex: 0 0 20%;
+    padding: 0 15px;
+}
+
+
+.col25{
+    max-width: 25%;
+    flex: 0 0 25%;
+    padding: 0 15px;
+}
+
+.header-top{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+    padding: 10px 0;
+}
+
+/* ------- start of navbar ------- */
+
+.navbar{
+    width: 100%;
+}
+
+.navbar .container .nav-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .container .nav-box .nav-logo a{
+  display: block;
+  max-width: 100px;
+  width: 100%;
+}
+
+.navbar .container .nav-box .nav-logo a img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.navbar .container .nav-box .menu-top .nav-menu{
+    display: flex;
+}
+
+.navbar .container .nav-box .menu-top .nav-menu li{
+    padding-right: 40px;
+}
+
+.navbar .container .nav-box .menu-top .nav-menu li:nth-last-child(1){
+    padding-right: 0;
+}
+
+.navbar .container .nav-box .menu-top .nav-menu li a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    font-family: "Poppins", serif;
+}
+
+.navbar .container .nav-box .menu-top .nav-menu li a:after{
+    content: "";
+    height: 2px;
+    width: 0%;
+    left: 50%;
+    top: 28px;
+    position: absolute;
+    background-color: rgb(255,206,35);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    transform: translate(-50%); 
+}
+
+.navbar .container .nav-box .menu-top .nav-menu li a:hover::after{
+    width: 100%;
+}
+
+.navbar .container .nav-box .menu-top .nav-menu li .active{
+    color: rgb(243, 128, 6);
+}
+
+
+.navbar .container .nav-box .nav-icons{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .container .nav-box .nav-icons ul{
+    display: flex;
+    align-items: center;
+    margin: 0 -8px;
+}
+
+.navbar .container .nav-box .nav-icons ul li{
+    margin: 0 8px;
+}
+
+.navbar .container .nav-box .nav-icons ul li i{
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.navbar .container .nav-box .nav-icons ul li i:hover{
+    color: rgb(248,146,35);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.navbar .container .nav-box .nav-icons .fa-bars{
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    display: none;
+    margin-left: 16px;
+}
+
+
+.dropbtn {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    padding: 10px 10px;
+    border: none;
+    font-family: "Oswald", serif;
+    cursor: pointer;
+    text-align: center;
+  }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-right: 40px;
+  }
+  
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(81, 191, 235);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px 0px;
+    z-index: 1;
+  }
+
+  .dropdown-content a{
+    color: white;
+    text-decoration: none;
+    padding:5px  10px;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: capitalize;
+  }
+
+  .dropdown-content a:hover {background-color: black;}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+.navbar .nav-icons{
+    position: relative;
+}
+
+.navbar .nav-icons .cart-icons .add-cart .fa-solid{
+ font-size: 10px;
+ color: rgba(255, 255, 255, 1);
+ background-color: rgb(218,0,36);
+ border-radius: 50%;
+ position: absolute;
+ top: -10px;
+ right: 20px;
+ padding: 11px;
+ height: 8px;
+ width: 8px;
+ z-index: 100;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+/* -------- end of navbar -------- */
+
+/* -------- start of slider ------- */
+.banner{
+    min-height: 700px;
+    width: 100%;
+    position: relative;
+}
+
+.banner .container{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 ;
+    position: relative;
+}
+
+.banner #swiper-img-1{
+ min-height: 700px;
+ width: 100%;
+ background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/pizza-img-1.jpg);
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+
+.banner #swiper-img-2{
+    min-height: 700px;
+    width: 100%;
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/pizza-img-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   }
+
+
+   .banner #swiper-img-3{
+    min-height: 700px;
+    width: 100%;
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/pizza-img-3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+   } 
+
+   .banner #swiper-img-4{
+    min-height: 700px;
+    width: 100%;
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/pizza-img-6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+   } 
+
+.banner .slide-style1 .banner-content{
+    padding-top: 210px;
+}
+
+.banner .slide-style1 .banner-content .banner-content-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.banner .slide-style1 .banner-content span{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: block;
+    text-transform: uppercase;
+    font-family: "Oswald", serif;
+    color: rgba(255, 255, 255, 1) ;
+    padding-bottom: 13px;
+}
+
+.banner .slide-style1 .banner-content h1{
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: "Oswald", serif;
+    color: rgb(255,206,35);
+    padding-bottom: 13px;
+}
+
+
+.banner  .banner-content h2{
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: "Oswald", serif;
+    color: rgb(255,206,35);
+    padding-bottom: 13px;
+}
+
+
+.banner  .banner-content h3{
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: "Oswald", serif;
+    color: rgb(255,206,35);
+    padding-bottom: 13px;
+}
+
+
+
+.banner  .banner-content h4{
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-family: "Oswald", serif;
+    color: rgb(255,206,35);
+    padding-bottom: 13px;
+}
+
+.banner  .banner-content .para{
+    padding: 0 250px;
+}
+
+.banner  .banner-content .para p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 35px;
+}
+
+.banner  .banner-content .banner-btn a{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 12px 40px;
+    display: inline-block;
+    font-family: "Oswald", serif;
+    background-color: rgba(252, 175, 31, 0.874) ;
+    border: 1px solid rgba(252, 175, 31, 0.874);
+    color: rgba(255, 255, 255, 1);
+}
+
+.banner  .banner-content .banner-btn a:hover{
+    background-color: rgba(255, 255, 255, 1) ;
+    color: rgba(252, 175, 31, 0.874);
+    border: 1px solid rgba(252, 175, 31, 0.874);
+    outline: none;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+
+.banner .swiper-pagination .swiper-pagination-bullet{
+    background-color: rgba(252, 175, 31, 0.874);
+    height: 10px;
+    width: 10px;
+}
+
+
+/* -------- end of slider -------- */
+
+/* ---------- start of Menu-banner --------- */
+
+ .Menu-banner{
+    min-height: 700px;
+    width: 100%;
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/menu-backgound-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.Menu-banner .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Menu-banner .Menu-banner-text{
+    max-width: 100%;
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 280px;
+}
+
+.Menu-banner .Menu-banner-text span{
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: block;
+    text-transform: capitalize;
+    font-family: "Pacifico", serif;
+    color:  rgb(255,206,35);
+    padding-bottom: 13px;
+}
+
+
+/* ------ end of Menun-banner -------- */
+
+/* ---------- start of Home-banner ---------- */
+
+.Home-banner{
+    min-height: 700px;
+    width: 100%;
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/home-background-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.Home-banner .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home-banner .Home-banner-text{
+    max-width: 100%;
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 280px;
+}
+
+.Home-banner .Home-banner-text span{
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: block;
+    text-transform: capitalize;
+    font-family: "Pacifico", serif;
+    color: rgb(255,206,35);
+    padding-bottom: 13px;
+}
+
+
+/* --------- end of Home-banner ------- */
+
+
+/* -------- start of about-banner --------- */
+.about-banner{
+    min-height: 700px;
+    width: 100%;
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/about-background-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.about-banner .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-banner .about-banner-text{
+    max-width: 100%;
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 280px;
+}
+
+.about-banner .about-banner-text span{
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: block;
+    text-transform: capitalize;
+    font-family: "Pacifico", serif;
+    color: rgb(255,206,35);
+    padding-bottom: 13px;
+}
+
+/* ----- end of about-banner --------- */
+
+
+
+/* -------- start of services-banner --------- */
+.services-banner{
+    min-height: 700px;
+    width: 100%;
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/services-background-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.services-banner .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-banner .services-banner-text{
+    max-width: 100%;
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 280px;
+}
+
+.services-banner .services-banner-text span{
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: block;
+    text-transform: capitalize;
+    font-family: "Pacifico", serif;
+    color: rgb(255,206,35);
+    padding-bottom: 13px;
+}
+
+/* ----- end of services-banner --------- */
+
+
+/* -------- start of blog-banner --------- */
+.blog-banner{
+    min-height: 700px;
+    width: 100%;
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/blog-background-img-11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.blog-banner .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-banner .blog-banner-text{
+    max-width: 100%;
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 280px;
+}
+
+.blog-banner .blog-banner-text span{
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: block;
+    text-transform: capitalize;
+    font-family: "Pacifico", serif;
+    color: rgb(255,206,35);
+    padding-bottom: 13px;
+}
+
+
+/* ----- end of blog-banner ------blog
+
+/* -------- start of blog-banner --------- */
+.contact-banner{
+    min-height: 700px;
+    width: 100%;
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/contact-backgound-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.contact-banner .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-banner .contact-banner-text{
+    max-width: 100%;
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 280px;
+}
+
+.contact-banner .contact-banner-text span{
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: block;
+    text-transform: capitalize;
+    font-family: "Pacifico", serif;
+    color: rgb(255,206,35);
+    padding-bottom: 13px;
+}
+
+
+/* ----- end of blog-banner ------blog
+
+
+
+
+/* -------- start of contact-us -------- */
+
+.contact-us{
+    width: 100%;
+    background-color: rgb(247,247,249);
+    padding: 100px 0 0 0;
+}
+
+.contact-us .contact-us-text{
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.contact-us .contact-us-text h2{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: rgb(0,27,68);
+    font-family: "Poppins", serif;
+}
+
+.contact-us .container-fluid .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us .container-fluid .row .contact-us-map{
+    width: 100%;
+}
+
+.contact-us #contact-us-row2{
+    margin-bottom: -50px;
+}
+
+.contact-us .contact-us-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(#d34f35,#e2468c);
+    border-radius: 10px;
+    padding: 50px 10px;
+    z-index: 30;
+    position: relative;
+}
+
+.contact-us .contact-us-title span{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 10px;
+    display: block;
+}
+
+.contact-us .contact-us-title a{
+    display: inline-block;
+}
+
+.contact-us .contact-us-title a i{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 15px;
+}
+
+.contact-us .contact-us-title ul li{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", serif;
+}
+
+/* --------- end of contact-us --------- */
+
+/* ------ start of restaurnt ------- */
+
+.restaurant{
+    min-height: 700px;
+    width: 100%;
+    background-image: url(../IMG/menu-background-img-bg.jpg);
+    padding: 70px 0;
+}
+
+.restaurant .restaurant-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.restaurant .swiper-btn  .swiper-button-prev{
+    position: absolute;
+    top: 55%;
+    left: -50px;
+    height: 60px;
+    width: 60px;
+    color: rgba(255, 255, 255, 1);
+    background-color: red;
+    border-radius: 50%;
+    padding: 2px 30px;
+    border: 1px solid black;
+}
+
+.restaurant .swiper-btn  .swiper-button-next{
+    position: absolute;
+    top: 55%;
+    right: -50px;
+    z-index: 50;
+    height: 60px;
+    width: 60px;
+    color: rgba(255, 255, 255, 1);
+    background-color: red;
+    border-radius: 50%;
+    padding: 2px 30px;
+    border: 1px solid black;
+}
+
+.restaurant .restaurant-text span{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: block;
+    padding-bottom: 10px;
+    font-family: "Oswald", serif;
+    text-transform: uppercase;
+    color: rgb(248,146,35);
+}
+
+.restaurant .restaurant-text h2{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-bottom: 20px;
+    font-family: "Oswald", serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+}
+
+.restaurant .restaurant-row2{
+    margin-bottom: 30px;
+}
+.restaurant .gallery-card-1 .images{
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+.restaurant .gallery-card-1 .images img{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.4s ease-in-out;
+    border: 10px solid rgba(255, 255, 255, 1);
+}
+
+.restaurant .gallery-card-1 .images img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.restaurant .slide-style3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.restaurant .slide-style3 .images img{
+   height: 450px;
+   width: 95%;
+   object-fit: cover;
+   border-radius: 10px;
+   border: 10px solid rgba(255, 255, 255, 1);
+}
+
+
+.restaurant .restaurant-images{
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+.restaurant .restaurant-images{
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+/* ------- end of restaurant ------- */
+
+
+/* -------- start of testimonial ------- */
+.testimonial{
+    min-height: 750px;
+    width: 100%;
+    background-image: url(../IMG/testimonial-bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    padding: 50px 0 0 0;
+}
+
+.testimonial .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.testimonial .container{
+    position: relative;
+}
+
+
+.testimonial .testimonial-card{
+    display: flex;
+    flex-direction: column;
+    padding: 55px 25px;
+    border-radius: 10px;
+    box-shadow:  0px 7px 29px 0px rgba(100, 100, 111, 0.2)  ;
+    background-color: rgb(255,152,57);
+} 
+
+.testimonial .testimonial-text{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.testimonial .testimonial-text span{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    font-family: "Montserrat", serif;
+    display: block;
+    color: rgb(248,146,35);
+}
+
+.testimonial .testimonial-text h2{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: rgb(40,40,40,1);
+    font-family: "Oswald", serif;
+}
+
+.testimonial .testimonial-card .images{
+    margin-bottom: 15px;
+}
+
+.testimonial .testimonial-card .images img{
+    max-height: 85px;
+    max-width: 85px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.testimonial .master-chef-img{
+    display: flex;
+}
+
+.testimonial .master-chef-img img{
+    height: auto;
+    max-width: 100%;
+}
+
+
+.testimonial-card-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    color: rgb(78, 76, 76);
+    font-family: "Inter", serif;   
+}
+
+
+.testimonial-card-text .testimonial-heading .title{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.1;
+    padding-bottom: 10px;
+    color: rgb(53,52,251);
+     font-family: "Oswald", serif;
+}
+
+.testimonial-card-text .testimonial-heading span{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-bottom: 10px;
+    color: rgb(37, 36, 36);
+     font-family: "Oswald", serif;
+}
+
+
+.testimonial .swiper-pagination .swiper-pagination-bullet{
+    background-color: rgb(53,52,251);
+    height: 10px;
+    width: 10px;
+}
+
+.bounce {
+    position: relative;
+    -webkit-animation:bounce 4s alternate infinite;
+  }
+  
+  @-webkit-keyframes bounce {
+    0%       { bottom:4px; }
+    25%      { top:14px; }
+    50%      { bottom:20px; }
+    75%      { top:30px; }
+    100%     {bottom:0;}
+  }
+
+  .bounce img{
+    max-height: 180px;
+    max-width: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid red;
+  }
+
+  .pizza-set{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    border: 1px solid red;
+  }
+
+  /* -------- end of testimonial -------- */
+
+  /* ------- start of experience ------- */
+  .experience{
+    width: 100%;
+    margin-top: -100px;
+    padding-bottom: 80px;
+    background-color: rgb(32, 32, 32);
+  }
+
+  .experience .container .row{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: rgba(255, 255, 255, 1);
+    padding: 60px 40px;
+    border-radius: 10px;
+    z-index: 100;
+  }
+
+  .experience .experience-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .experience .experience-text .experience-heading{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: "Poppins", serif;
+    color: rgb(3, 3, 3);
+    padding-bottom: 10px;
+  }
+
+  .experience .experience-text .list{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: rgb(218,0,36);
+  }
+
+/* -------- end of experience --------- */
+
+
+  /* ------- start of discover ------ */
+  .discover{
+    width: 100%;
+    padding: 50px 0;
+  }
+
+  .discover-heading-text h2{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.4;
+    text-align: center;
+    padding-bottom: 35px;
+    font-family: "Oswald", serif;
+    color: rgb(3, 3, 3);
+  }
+
+  .discover .discover-images img{
+    height: auto;
+    max-width: 100%;
+  }
+
+  .discover .discover-text{
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  .discover .discover-text span{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.4;
+    display: block;
+    padding-bottom: 15px;
+    font-family: "Oswald", serif;
+    text-transform: capitalize;
+    color: rgb(248,146,35);
+  }
+
+  .discover .discover-text h3{
+    font-size: 59px;
+    font-weight: 600;
+    line-height: 1.1;
+    padding-bottom: 15px;
+    font-family: "Playfair Display", serif;
+    color: rgb(3, 3, 3);
+  }
+
+  .discover .discover-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-bottom: 15px;
+    font-family: "Inter", serif;
+    color: rgb(124,124,124);
+  }
+
+  .discover .discover-text .signature{
+    margin-bottom: 25px;
+  }
+
+  .discover .discover-text .signature img{
+   max-height: 200px;
+   max-width: 200px;
+   object-fit: cover;
+  }
+
+  .discover .discover-text .chef-btn{
+    display: flex;
+  }
+
+  .discover .discover-text .chef-btn .btn-1 a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: rgba(255, 255, 255, 1);
+    display: inline-block;
+    background-color: green;
+    border: 1px solid green;
+    margin-right: 20px;
+    padding: 16px 36px;
+    border-radius: 35px;
+  }
+
+  .discover .discover-text .chef-btn .btn-1 a:hover{
+    color: green;
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid green;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+  }
+
+  .discover .discover-text .chef-btn .btn-2 a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgb(248,146,35);
+    border: 1px solid rgb(248,146,35);
+    display: inline-block;
+    padding: 16px 36px;
+    border-radius: 35px;
+  }
+
+  .discover .discover-text .chef-btn .btn-2 a:hover{
+    color: rgb(248,146,35);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgb(248,146,35);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+  }
+
+
+
+
+  /* --------- end of discover --------- */
+
+  /* ------- start of team --------- */
+  .team{
+    width: 100%;
+    padding: 80px 0;
+    background-color: rgb(254,193,57);
+    
+}
+
+  .team .team-text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  .team .team-text span{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: block;
+    font-family: "Oswald", serif;
+    padding-bottom: 10px;
+    color: rgb(33, 33, 156);
+  }
+
+  .team .team-text h2{
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 1.1;
+    font-family: "Oswald", serif;
+    color: rgb(3, 3, 3);
+  }
+
+  .team .team-images img{
+    max-height: 300px;
+    max-width: 250px;
+    object-fit: cover;
+  }
+
+  .team .team-card{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 15px 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background: linear-gradient(to left, rgba(255, 255, 255, 1) 50%, orange 50%) right;
+    background-size: 200%;
+    transition: 0.5s ease-out;
+  }
+
+
+  .team .team-card:hover{
+    background-position: left;
+    cursor: pointer;
+
+    .team-chef-heading{
+        color: rgba(255, 255, 255, 1);
+    }
+
+    span{
+        color: rgba(255, 255, 255, 1);
+    }
+  }
+
+
+  .team .team-card:hover:after{
+    width: 100%;
+  }
+
+  .team .team-chef-text{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team .team-chef-text .team-chef-heading{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Oswald", serif;
+    line-height: 1.5;
+    color: rgb(40,40,40);
+    padding-bottom: 5px;
+  }
+
+  .team .team-chef-text span{
+    font-size: 20px;
+    font-weight: 400;
+    display: block;
+    font-family: "Oswald", serif;
+    line-height: 1.5;
+    color: rgb(3, 3, 3);
+  }
+
+  /* --------- end of team ------- */
+
+/* ------ start of download-app ------- */
+.download-app{
+    width: 100%;
+    padding: 50px 0;
+    background-color: rgb(247,247,247);
+}
+
+.download-app .download-app-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.download-app .images{
+    margin-bottom: 25px;
+}
+
+.download-app .images img{
+    height: auto;
+    max-width: 100%;
+}
+
+.download-app .download-app-text .food-app{
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: "Poppins", serif;
+    color: rgb(255,91,57);
+    display: block;
+    padding-bottom: 10px;
+}
+
+.download-app .download-app-text h3{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.1;
+    color: rgb(16,0,50);
+    font-family: "Poppins", serif;
+}
+
+.download-app .download-app-text .download-title .app-store-text{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.download-app .download-app-text .download-title{
+    margin-top: 30px;
+}
+
+.download-app .download-app-text .download-title .app-store-text .download-no{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    background-color: rgb(255,78,0);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    padding: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", serif;
+    margin-right: 30px;
+}
+
+.download-app .download-app-text .download-title .app-store-text .download-title-text span{
+ font-size: 21px;
+ font-weight: 500;
+ line-height: 1.1;
+ color: rgb(11,11,11);
+ font-family: "Poppins", serif;
+ display: block;
+ padding-bottom: 10px;
+}
+
+.download-app .download-app-text .download-title .app-store-text .download-title-text p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(11,11,11);
+    font-family: "Poppins", serif;
+}
+
+.download-app  .app-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-app  .app-btn .app-btn-1{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    background-color: rgb(255,206,35);
+    border: 1p solid rgb(255,206,35);
+    border-radius: 35px;
+    margin-right: 10px;
+  }
+
+  .download-app .app-btn .app-btn-1:hover{
+    background-color: rgb(3, 3, 3);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+
+    a{
+        color: rgb(255,206,35);
+    }
+    .app-heading{
+        color: rgb(255,206,35);
+    }
+
+    span{
+        color: rgb(255,206,35);
+    }
+  }
+
+  .download-app  .app-btn .app-btn-1 a{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.3;
+    font-family: "Oswald", serif;
+    color: rgb(3, 3, 3);
+    display: inline-block;
+  }
+
+  .download-app  .app-btn .app-btn-1 .app-link-1{
+    display: inline-block;
+  }
+
+  .download-app  .app-btn .app-btn-1 .app-link-2{
+    display: inline-block;
+  }
+
+  .download-app  .app-btn .app-btn-1 a i{
+    margin-right: 10px;
+  }
+
+  .download-app  .app-btn-1 .app-heading{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: "Poppins", serif;
+    color: rgb(3, 3, 3);
+  }
+
+  .download-app  .app-btn-1 span{
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    line-height: 1.2;
+    font-family: "Oswald", serif;
+    color: rgb(3, 3, 3);
+  }
+
+  .download-app .parent-anchor{
+    display: inline-block;
+  }
+
+  .download-app  .app-btn .app-btn-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 25px;
+    border: 1px solid rgb(252, 168, 12);
+    background-color:rgb(252, 168, 12) ;
+    border-radius: 35px;
+  }
+
+  .download-app  .app-btn .app-btn-2 a{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.3;
+    font-family: "Oswald", serif;
+    color: rgba(255, 255, 255, 1);
+    display: inline-block;
+  }
+
+  .download-app  .app-btn .app-btn-2 a i{
+    margin-right: 10px;
+  }
+
+  .download-app  .app-btn-2 .app-heading{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: "Poppins", serif;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .download-app  .app-btn-2 span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    display: block;
+    font-family: "Oswald", serif;
+    color: rgba(255, 255, 255, 1);
+  }
+
+  .download-app  .app-btn .app-btn-2:hover{
+    background-color: rgba(255, 255, 255, 1);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    border: 1px solid rgb(252, 168, 12);
+
+    a{
+        color: rgb(252, 168, 12);
+    }
+    .app-heading{
+        color: rgb(252, 168, 12);
+    }
+
+    span{
+        color: rgb(252, 168, 12);
+    }
+  }
+
+  /* ------- end of download ------- */
+
+  /* --------- start of special-offer -------- */
+
+.special-offer{
+    min-height: 802px;
+    width: 100%;
+    background-image: url(../IMG/special-offers-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.special-offer .container .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.special-offer .special-images{
+    padding: 20px 0;
+}
+
+.special-offer .special-images img{
+    height: auto;
+    max-width: 100%;
+}
+
+.special-offer .special-offer-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.special-offer .special-offer-text span{
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    line-height: 1.5;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 15px;
+    font-family: "Oswald", serif;
+}
+
+.special-offer .special-offer-text h3{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-family: "Oswald", serif;
+    color: rgb(248,146,35);
+}
+
+.special-offer .special-offer-text p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Poppins", serif;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 25px;
+}
+
+.special-offer .special-offer-text .special-price{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-bottom: 15px;
+    font-family: "Oswald", serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+.special-offer .special-offer-text .special-price del{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Oswald", serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+.special-offer .special-btn a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: inline-block;
+    padding: 10px 36px;
+    border-radius: 25px;
+    font-family: "Oswald", serif;
+    text-transform: uppercase;
+    background-color: rgb(253, 51, 0);
+    color: rgba(255, 255, 255, 1);
+}
+
+.special-offer .special-btn a:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(248,146,35);
+    transition: all 0.4s ease-in-out;
+}
+
+
+.special-offer .special-images img {
+    height: auto;
+    max-width: 100%;
+}
+
+ .special-offer .special-images{
+    animation:spin 6s linear infinite;
+}
+
+/* @keyframes spin { 
+    100% { 
+        transform:rotate(360deg); 
+    } 
+}   */
+
+
+
+/* ------ end of special-offer ------- */
+
+/* ------- start of form-data --------- */
+.form-data{
+    min-height: 600px;
+    width: 100%;
+    background-color: rgb(252,247,235);
+    padding: 70px 0;
+}
+
+.form-data .heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-data .heading h2{
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Oswald", serif;
+    line-height: 1.2;
+    color: rgb(3, 3, 3);
+    text-transform: capitalize;
+}
+
+.form-data .form-data-text{
+    background-color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    padding: 18px 22px;
+}
+
+.form-data .form-text{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.form-data .form-text .input-data{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+    padding: 10px 10px; 
+    width: 100%;
+}
+
+.form-data .form-text .calender{
+    display: flex;
+}
+
+.form-data .form-text .input-data input{
+    border: none;
+    outline: none;
+    width: 100%;
+    background: transparent;
+}
+
+.form-data .form-text .input-data .date-time{
+    color: gray;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.form-data .form-text .input-data input{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Playfair Display", serif;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.05);
+}
+
+.form-data .form-text textarea{
+    width: 100%;
+}
+
+.form-data .form-text textarea{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 10px 10px;
+    font-family: "Playfair Display", serif;
+    color: gray;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    outline: none;
+}
+
+.form-data .form-text .form-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form-data .form-text .form-submit .submit-btn{
+    margin-right: 10px;
+}
+
+.form-data .form-text .form-submit .submit-btn a{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgb(3, 3, 3);
+    display: inline-block;
+    border: 1px solid rgb(3, 3, 3);
+    border-radius: 45px;
+    padding: 10px 36px;
+}
+
+.form-data .form-text .form-submit .submit-btn a:hover{
+    color: rgb(3, 3, 3);
+    background-color: rgba(255, 255, 255, 1);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+
+.form-data .form-text .form-submit .clear-btn a{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 1);
+    background-color: green;
+    display: inline-block;
+    border: 1px solid green;
+    border-radius: 45px;
+    padding: 10px 36px;
+}
+
+.form-data .form-text .form-submit .clear-btn a:hover{
+    color: green;
+    background-color: rgba(255, 255, 255, 1);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.form-data .map-location iframe{
+    max-width: 100%;
+}
+
+
+.booking{
+    background-image: url(../IMG/form-background-img.jpg);
+    min-height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    padding: 80px 0 100px 0;
+}
+
+.booking-heading{
+    text-align: center;
+}
+
+.booking-heading h2{
+    color: #FFFFFFFF;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-bottom: 50px;
+}
+
+
+.booking .container{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.booking .col40{
+    background-color: rgba(254,193,57,0.7);
+    min-height: 400px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.booking .col40 .resturant-time-main{
+    padding: 35px 20px 0 20px;
+}
+
+.resturant-time-main h3{
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-bottom: 5px;
+}
+
+.booking .row .col60{
+    min-height: 400px;
+    width: 100%;
+}
+
+.booking .resturant-time-main{
+   text-align: center;
+}
+    
+.booking .resturant-open {
+    color: #FFFFFFFF;
+    font-size: 35px;
+    font-family: "Open Sans", serif;
+    line-height: 1.2;
+    font-weight: 600;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.booking .resturant-slot-1{
+    color: #000000;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.3;
+    padding-bottom: 10px;
+    font-family: "Open Sans", serif;
+}
+
+.booking .resturant-foodtime-1{
+    color: #FFFFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3;
+    font-family: "Inter", serif; 
+    padding-bottom: 5px;
+}
+
+.booking .resturant-open-days{
+    color: #FFFFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.3;  
+    display: block;
+    position: relative;
+    padding-bottom: 20px;
+    font-family: "Charmonman", serif;
+}
+
+.booking .resturant-open-days::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 200px;
+    background-color: #FFFFFFFF;
+    transform: translate(-50%);
+    left: 50%;
+    top: 34px;
+}
+
+.booking .resturant-time-1{
+    margin-bottom: 80px;
+}
+
+.booking .form-data-text .heading{
+    text-align: center;
+}
+
+.booking .form-data-text .heading span{
+    color: rgb(218,0,36);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.2;
+    font-style: italic;
+    font-family: "Poppins", serif;
+    padding-bottom: 15px;
+}
+
+.booking .form-data-text .heading h3{
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: "Oswald", serif;
+    padding-bottom: 20px;
+}
+
+
+.booking .form-data-text{
+    box-shadow: 0 4px 8px 0 grey;
+    padding: 30px 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.booking .input-data{
+    margin-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.booking .input-data input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 15px 10px 15px 20px;
+}
+
+.booking .input-data input::placeholder{
+    color: gray;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.booking .form-data-text .form-text .input-data .date-time{
+    color: gray;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    line-height: 1.5;
+}
+   
+.booking .form-data-text .input-data textarea {
+    color: gray;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 15px 0 0 15px;
+    width: 100%;
+    border: none;
+}
+
+.booking .form-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking .form-button-1{
+    margin-right: 20px;
+}
+
+
+.booking .form-button input{
+    font-size: 21px;
+    background-color: rgb(254,193,57);
+    color: #FFFFFFFF;
+    border: 1px solid rgb(254,193,57);
+    padding: 10px 25px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    line-height: 1.2;
+    border-radius: 35px;
+}
+
+.booking .form-button input:hover{
+    background-color: #FFFFFFFF;
+    color: rgb(254,193,57);
+    border: 1px solid rgb(254,193,57);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+
+/* ------- end of form-data ------- */
+
+
+/* -------- start of recipes ------- */
+.recipes{
+    background-image: url(../IMG/menu-background-img-bg.jpg);
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 80px 0 50px 0;
+}
+
+
+.recipes .choose-card .choose-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+}
+
+.recipes .choose-card .choose-card-content:hover{
+    transform: translateY(-10px);
+}
+
+.recipes .choose-card .choose-card-content:hover{
+    background-color: rgb(248,146,35);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+
+    .choose-card-text{
+         .choose-heading{
+                color: rgba(255, 255, 255, 1);
+        }
+
+        span{
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+}
+
+.recipes .choose-card .choose-card-content .images img{
+  max-height: 180px;
+  max-width: 200px;
+  object-fit: cover;
+}
+
+.recipes .choose-card .choose-card-content .choose-card-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.recipes .choose-card .choose-card-content .choose-card-text .choose-heading{
+ font-size: 20px;
+ font-weight: 500;
+ line-height: 1.5;
+ color: rgb(3, 3, 3);
+ padding-bottom: 5px;
+ font-family: "Oswald", serif;
+}
+
+
+
+.recipes .choose-card .choose-card-content .choose-card-text span{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Inter", serif;
+    color: rgb(3, 3, 3);
+}
+
+.recipes .choose-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.recipes .choose-product a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: "Oswald", serif;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgb(248,146,35);
+    border-radius: 36px;
+    padding: 15px 36px;
+}
+
+.recipes .choose-product a:hover{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(248,146,35);
+    border: 1px solid rgb(248,146,35);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.recipes .recipes-text{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.recipes .recipes-text span{
+    font-size: 19px;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    text-transform: capitalize;
+    line-height: 1.5;
+    color: rgb(253, 51, 0);
+    display: block;
+}
+
+.recipes .recipes-btn{
+    margin-top: 5px;
+}
+
+.recipes .recipes-btn a{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.1;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Poppins", serif;
+    background-color: orange;
+    padding: 9px 25px;
+    border-radius: 35px;
+}
+
+.recipes .recipes-text h2{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: "Inter", serif;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 1);
+}
+
+.recipes .recipes-data-list{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.recipes .recipes-data-list ul{
+    display: flex;
+}
+
+.recipes .recipes-row2{
+    margin-bottom: 30px;
+}
+
+.recipes .recipes-data-list ul li{
+    padding-right: 25px;
+}
+
+.recipes .recipes-data-list ul li:nth-last-child(1){
+    padding-right: 0;
+}
+
+.recipes .recipes-data-list{
+    border-radius: 35px;
+    padding: 20px 25px;
+}
+
+.recipes .recipes-data-list ul li .active{
+    color: red;
+}
+
+.recipes .recipes-data-list ul li a{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: inline-block;
+    font-family: "Poppins", serif;
+    color: rgba(255, 255, 255, 1);
+    position: relative;
+}
+
+.recipes .recipes-data-list ul li a:after{
+    content: "";
+    height: 3px;
+    width: 0%;
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    background-color: rgb(248,146,35);
+    transform: translate(-50%);
+    transition: all 0.4s ease-in-out;
+}
+
+.recipes .recipes-data-list ul li a:hover:after{
+    width: 100%;
+}
+
+.recipes #menu-list-1 .menu-brunch-text{
+    padding: 60px 0px;
+}
+
+.recipes #menu-list-2 .menu-brunch-text{
+    padding: 60px 0px;
+}
+
+
+.recipes #menu-list-3 .menu-brunch-text{
+    padding: 60px 0px;
+}
+
+.recipes #menu-list-4 .menu-brunch-text{
+    padding: 60px 0px;
+}
+
+
+.recipes #menu-list-5 .menu-brunch-text{
+    padding: 60px 0px;
+}
+
+.recipes #menu-list-6 .menu-brunch-text{
+    padding: 60px 0px;
+}
+
+.recipes #menu-list-7 .menu-brunch-text{
+    padding: 60px 0px;
+}
+
+.recipes #menu-list-8 .menu-brunch-text{
+    padding: 60px 0px;
+}
+
+.recipes .menu-brunch-text .menu-list{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.recipes .menu-brunch-text .menu-list .menu-price{
+    display: flex;
+}
+
+.recipes .menu-brunch-text .menu-list .menu-price span{
+    display: block;
+}
+
+.recipes .menu-brunch-text .menu-list .brunch-title{
+    display: flex;
+}
+
+.recipes .menu-brunch-text .menu-list .brunch-title .images{
+    margin-right: 10px;
+}
+
+.recipes .menu-brunch-text .menu-list .brunch-title .images img{
+    max-height: 80px;
+    max-width: 80px;
+    object-fit: cover;
+}
+
+.recipes .menu-brunch-text .menu-list .brunch-title .brunch-title-text h3{
+ font-size: 22px;
+ font-weight: 700;
+ line-height: 1.2;
+ font-family: "Inter", serif;
+ color: rgb(248,146,35);
+ padding-bottom: 10px;
+}
+
+.recipes .menu-brunch-text .menu-list .brunch-title .brunch-title-text p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3;
+    font-family: "Poppins", serif;
+    color: rgb(40,40,40);
+    padding-right: 30px;
+}
+
+.recipes .menu-brunch-text .menu-list .menu-price span{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    font-family: "Poppins", serif;
+    color: rgb(40,40,40);
+}
+
+/* -------- start of footer -------- */
+
+footer{
+    background-color: rgba(0, 0, 0, 0.945);
+    width: 100%;
+}
+
+.footer-upper{
+    width: 100%;
+}
+
+ .footer-upper .container{
+    box-shadow: rgb(34, 28, 28) 0px 1px 20px 0px;
+    background-color: rgb(44, 44, 44);
+    padding: 40px 30px;
+    border-radius: 25px;
+}
+
+.footer-upper{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+
+.footer-upper .footer-upper-text .footer-logo{
+    margin-bottom: 15px;
+}
+
+.footer-upper .footer-upper-text .footer-logo a{
+  display: block;
+  max-width: 100px;
+  width: 100%;
+}
+
+.footer-upper .footer-upper-text .footer-logo a img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.footer-upper .footer-upper-text .footer-para{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat", serif;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-upper .footer-upper-text .social-icons {
+    margin-top: 26px;
+}
+
+.footer-upper .footer-upper-text .social-icons ul{
+    display: flex;
+    margin: 0 -8px;
+}
+
+.footer-upper .footer-upper-text .social-icons ul li{
+    margin: 0 8px;
+}
+
+.footer-upper .footer-upper-text .social-icons ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(3, 3, 3);
+}
+
+.footer-upper .footer-upper-text .social-icons ul li a:hover{
+    background-color: rgb(3, 3, 3);
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+
+.footer-upper .footer-upper-text .play-store-title{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Playfair Display", serif;
+}
+
+.footer-upper .footer-play-store{
+    margin-top: 20px;
+}
+
+.footer-upper .footer-play-store .store ul{
+    display: flex;
+    margin: 0 -8px;
+}
+
+.footer-upper .footer-play-store .store ul li{
+    margin: 0 8px;
+}
+
+.footer-upper .footer-play-store .store ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgb(3, 3, 3);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    font-family: "Playfair Display", serif;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-upper .footer-play-store .store ul li a:hover{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgb(3, 3, 3);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.footer-upper .footer-play-store .store ul li a i{
+    padding: 20px;
+}
+
+.footer-upper .links span{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: block;
+    padding-bottom: 17px;
+    font-family: "Oswald", serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-upper .links ul li a:hover{
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.footer-upper .links .links-1 ul  li i{
+    color:  rgb(255,206,35);
+}
+
+.footer-upper .links ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: "Oswald", serif;
+    display: inline-block;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-upper .links ul li i{
+    font-size: 14px;
+    margin-right: 5px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-upper .links .links-1{
+    display: flex;
+    align-items: center;
+    line-height: 2;
+}
+
+.footer-upper .categories .categories-1{
+    display: flex;
+    align-items: center;
+    line-height: 2;
+}
+
+.footer-upper .categories .categories-1 ul li i{
+    color: rgb(255,206,35);
+}
+
+.footer-upper .categories span{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: block;
+    padding-bottom: 17px;
+    font-family: "Oswald", serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-upper .categories ul li a:hover{
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.footer-upper .categories ul li a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-family: "Oswald", serif;
+    display: inline-block;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-upper .categories ul li i{
+    font-size: 14px;
+    margin-right: 5px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.footer-upper .contact .info{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: block;
+    padding-bottom: 17px;
+    font-family: "Oswald", serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-upper .contact .social-info .social-title{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.footer-upper .contact .social-info .social-title .capitalize{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Inter", serif;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-upper .contact .social-info .social-title i{
+    margin-right: 10px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    line-height: 1.5;
+    background-color: rgb(221,153,28);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-upper .contact .social-info .social-title i:hover{
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgb(221,153,28);
+    color: rgb(221,153,28);
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.footer-upper .contact .social-info .social-title a{
+    font-size: 20px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.footer-upper .contact .social-info .social-title .social-content .location:hover{
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.footer-upper .contact .social-info .social-title .social-content .tel-no:hover{
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.footer-upper .contact .social-info .social-title .social-content .mail-no:hover{
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.footer-upper .contact .social-info .social-title .location{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-upper .contact .social-info .social-title .tel-no{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-upper .contact .social-info .social-title .mail-no{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", serif;
+    line-height: 1.4;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-lower{
+    width: 100%;
+}
+
+.footer-lower .copyright{
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-lower .copyright{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Inter", serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+.footer-lower .copyright a{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+    font-family: "Inter", serif;
+    color: rgba(255, 255, 255, 1);
+    display: inline-block;
+}

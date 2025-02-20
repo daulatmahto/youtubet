@@ -1,0 +1,1705 @@
+@media screen  and (max-width:1316px){
+    .restaurant .swiper-btn  .swiper-button-prev{
+        left: 0;
+    }
+
+    .restaurant .swiper-btn  .swiper-button-next{
+        right: 0;
+    }
+}
+
+
+@media screen  and (max-width:1199px){
+    
+    .banner .slide-style1 .banner-content span{
+        font-size: 30px;
+    }
+
+    .banner .slide-style1 .banner-content h1{
+        font-size: 80px;    
+    }
+
+    .banner .slide-style1 .banner-content h2{
+        font-size: 80px;    
+    }
+
+    .banner .slide-style1 .banner-content h3{
+        font-size: 80px;    
+    }
+
+    .banner .slide-style1 .banner-content h4{
+        font-size: 80px;    
+    }
+
+    .banner .slide-style1 .banner-content .para p{
+        font-size: 15px;
+    }
+
+    
+.banner .slide-style1 .banner-content .banner-btn a{
+    font-size: 18px;
+}
+
+.recipes .recipes-text span{
+    font-size: 16px;
+}
+
+.recipes .recipes-text h2{
+    font-size: 35px;
+}
+
+.recipes .choose-card .choose-card-content .choose-card-text .choose-heading{
+    font-size: 18px;
+}
+
+
+.recipes .choose-card .choose-card-content .choose-card-text span{
+    font-size: 15px;
+}
+
+.booking-heading h2{
+    font-size: 45px;
+}
+
+.booking .form-data-text .heading span{
+    font-size: 22px;
+}
+
+.booking .form-data-text .heading h3{
+    font-size: 35px;
+}
+
+.resturant-time-main h3{
+    font-size: 35px;
+}
+
+.booking .resturant-open-days{
+    font-size: 20px;
+}
+
+.booking .resturant-foodtime-1{
+    font-size: 18px;
+}
+
+.booking .resturant-slot-1{
+    font-size: 20px;
+}
+
+.booking .resturant-open{
+    font-size: 30px;
+}
+
+
+.contact-us .contact-us-text h2{
+    font-size: 40px;
+}
+
+.contact-us .contact-us-title span{
+    font-size: 18px;
+}
+
+.contact-us .contact-us-title a i{
+    font-size: 25px;
+}
+
+.contact-us .contact-us-title ul li{
+    font-size: 15px;
+}
+
+.restaurant .restaurant-text h2{
+    font-size: 30px;
+}
+
+.restaurant .restaurant-text span{
+    font-size: 16px;
+}
+
+.download-app .download-app-text h3{
+    font-size: 35px;
+}
+
+.team .team-text span{
+    font-size: 20px;
+    line-height: 1.3;
+    padding-bottom: 5px;
+}
+
+.team .team-chef-text .team-chef-heading{
+    font-size: 25px;
+}
+
+.team .team-text h2{
+    font-size: 38px;
+    line-height: 1.1;
+}
+  
+
+.team .team-chef-text span{
+    font-size: 16px;
+}
+
+  
+.recipes .recipes-text h2{
+    font-size: 30px;
+}
+
+.recipes .recipes-text span{
+    font-size: 16px;
+}
+
+.recipes .recipes-data-list ul li a{
+    font-size: 15px;
+}
+
+.recipes .menu-brunch-text .menu-list .brunch-title .brunch-title-text h4{
+    font-size: 18px;
+}
+
+.recipes .menu-brunch-text .menu-list .menu-price span{
+    font-size: 18px;
+}
+
+.delivery-order .delivery-order-text .top-heading h3{
+    font-size: 33px;
+}
+
+.delivery-order .delivery-order-text .order .order-call .order-heading{
+    font-size: 18px;
+}
+
+.delivery-order .delivery-order-text .order .order-call span{
+    font-size: 25px;
+}
+
+.delivery-order .delivery-order-text  .order-price .order-price-text .price-heading{
+    font-size: 18px;
+}
+
+.delivery-order .delivery-order-text  .order-price .order-price-text  span{
+    font-size: 25px;
+}
+
+.delivery-order .delivery-order-text  .order-price .order-btn a{
+    font-size: 15px;
+}
+
+.choose .choose-text span{
+    font-size: 16px;
+    line-height: 1.2;
+    padding-bottom: 10px;
+}
+
+.choose .choose-text h2{
+    font-size: 30px;
+}
+
+.choose .choose-product a{
+    font-size: 16px;
+    padding: 10px 36px;
+}
+
+.choose .choose-card .choose-card-content .choose-card-text span{
+    font-size: 16px;
+}
+
+.choose .choose-card .choose-card-content .choose-card-text .choose-heading{
+    font-size: 18px;
+}
+
+.experience .experience-text .experience-heading{
+    font-size: 42px;
+}
+
+.discover .discover-text span{
+    font-size: 19px;
+}
+
+.discover .discover-text h3{
+    font-size: 50px;
+}
+
+.discover .discover-text .chef-btn .btn-1 a{
+    font-size: 14px;
+}
+
+.discover .discover-text .chef-btn .btn-2 a{
+    font-size: 14px;
+}
+
+.discover .discover-text p{
+    font-size: 16px;
+}
+
+.testimonial .testimonial-text span{
+    font-size: 24px;
+}
+
+.testimonial .testimonial-text h2{
+    font-size: 48px;
+}
+
+.form-data .heading h2{
+    font-size: 28px;
+}
+
+.testimonial-card-text .testimonial-heading span{
+    font-size: 18px;
+}
+
+.testimonial-card-text .testimonial-heading .title{
+    font-size: 22px;
+}
+
+.form-data .form-text .input-data .date-time{
+    font-size: 15px;
+}
+
+.special-offer .special-offer-text span{
+    font-size: 16px;
+}
+
+.special-offer .special-offer-text h3{
+    font-size: 40px;
+}
+
+.app-store .app-store-text .btn a{
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.app-store .app-store-text .app-btn .app-btn-1{
+    padding: 8px 36px;
+}
+
+.app-store .app-store-text .app-btn-1 span{
+    font-size: 16px;
+}
+
+.app-store .app-store-text .app-btn-2 span{
+    font-size: 16px;
+}
+
+.app-store .app-store-text .app-btn .app-btn-2{
+    padding: 8px 36px;
+}
+
+.app-store .app-store-text h3{
+    font-size: 40px;
+}
+
+.special-offer .special-offer-text .special-price{
+    font-size: 28px;
+}
+
+.special-offer .special-btn a{
+    font-size: 16px;
+    padding: 6px 36px;
+    line-height: 1.2;
+}
+
+.special-offer .special-offer-text .special-price del{
+    font-size: 18px;
+}
+
+.special-offer .special-offer-text .special-price{
+    font-size: 28px;
+}
+
+.special-offer .special-offer-text p{
+    font-size: 15px;
+}
+
+.footer-upper .footer-upper-text .footer-para{
+    font-size: 14px;
+}
+
+    .footer-upper .links span{
+        font-size: 22px;
+    }
+
+    .footer-upper .categories span{
+        font-size: 22px;
+    }
+
+      .footer-upper .contact .info{
+        font-size: 22px;
+    }
+
+    .footer-upper .categories ul li a{
+        font-size: 14px;
+    }
+
+    .footer-upper .contact .social-info .social-title .capitalize{
+        font-size: 16px;    
+    }
+
+    .footer-upper .links ul li a{
+        font-size: 14px;
+    }
+
+  }
+
+    @media screen  and (max-width:1024px){
+        .banner .slide-style1 .banner-content .para{
+            padding: 0 160px;
+        }
+
+        .banner .slide-style1 .banner-content span{
+            font-size: 25px;
+        }
+    
+        .banner .slide-style1 .banner-content h1{
+            font-size: 68px;    
+        }
+
+        .banner .slide-style1 .banner-content h2{
+            font-size: 68px;    
+        }
+
+        .banner .slide-style1 .banner-content h3{
+            font-size: 68px;    
+        }
+
+        .banner .slide-style1 .banner-content h4{
+            font-size: 68px;    
+        }
+
+        .form-data .heading h2{
+            font-size: 20px;
+        }
+
+        .recipes .recipes-text span{
+            font-size: 14px;
+        }
+        
+        .recipes .recipes-text h2{
+            font-size: 30px;
+        }
+        
+        .recipes .choose-card .choose-card-content .choose-card-text .choose-heading{
+            font-size: 15px;
+        }
+        
+
+        .team .team-chef-text .team-chef-heading{
+            font-size: 22px;
+        }
+        
+        .team .team-text h2{
+            font-size: 30px;
+            line-height: 1.1;
+        }
+          
+        .discover .discover-text h3{
+            font-size: 42px;
+        }
+
+        .contact-us .contact-us-text h2{
+            font-size: 35px;
+        }
+
+        .booking-heading h2{
+            font-size: 40px;
+        }
+        
+        .booking .form-data-text .heading span{
+            font-size: 18px;
+        }
+        
+        .booking .form-data-text .heading h3{
+            font-size: 30px;
+        }
+        
+        .resturant-time-main h3{
+            font-size: 30px;
+        }
+        
+        .booking .resturant-open-days{
+            font-size: 18px;
+        }
+        
+        .booking .resturant-foodtime-1{
+            font-size: 18px;
+        }
+        
+        .booking .resturant-slot-1{
+            font-size: 18px;
+        }
+        
+        .booking .resturant-open{
+            font-size: 26px;
+        }
+
+        .special-offer .special-offer-text h3{
+            font-size: 34px;
+        }
+
+        .app-store .app-store-text .app-btn{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .app-store .app-store-text .app-btn .app-btn-1 a{
+            font-size: 28px;
+        }
+
+        .app-store .app-store-text h3{
+            font-size: 28px;
+        }
+
+        .app-store .app-store-text .app-btn .app-btn-2 a{
+            font-size: 28px;
+        }
+
+        .app-store .app-store-text .app-btn .app-btn-1{
+            padding: 8px 25px;
+        }
+
+        .app-store .app-store-text .app-btn .app-btn-2{
+            padding: 8px 25px;
+        }
+
+        .download-app .download-app-text h3{
+            font-size: 30px;
+        }
+
+        .download-app .download-app-text .download-title .app-store-text .download-title-text span{
+            font-size: 18px;
+        }
+
+        .download-app .download-app-text .download-title .app-store-text .download-title-text p{
+            font-size: 15px;
+            line-height: 1.3;
+        }
+
+        .testimonial .testimonial-text h2{
+            font-size: 35px;
+        }
+        
+        .testimonial .testimonial-text span{
+            font-size: 20px;
+        }
+        
+        .footer-upper .links span{
+            font-size: 19px;
+        }
+    
+        .footer-upper .categories span{
+            font-size: 19px;
+        }
+    
+          .footer-upper .contact .info{
+            font-size: 19px;
+        }
+        
+    }
+
+@media screen  and (max-width:991px){
+    .navbar .container .nav-box .nav-icons .fa-bars{
+        display: block;
+        transition: all 0.4s ease;
+
+        &.fa-xmark{
+            transform: rotate(180deg);
+        }
+    }
+
+    .navbar .container .nav-box .menu-top .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 70vh;
+        width: 100%;
+        top: 85px;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        padding-left: 0;
+        padding-right: 0;
+        position: absolute;
+        transition: all 0.4s ease;
+        cursor: pointer;
+        background-color: black;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+        &.active{
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        }
+    }
+
+    .navbar{
+        padding: 0 0;
+    }
+
+    .navbar .container .nav-box .menu-top .nav-menu li{
+        text-align: center;
+        width: 100%;
+        padding-right: 0;
+        border-radius: 8px;
+    }
+
+    .navbar .container .nav-box .menu-top .nav-menu li a{
+          font-size: 16px;
+          line-height: 2.5;
+    }
+
+    .navbar .nav-icons .cart-icons .add-cart .fa-solid{
+        right: 50px;
+    }
+
+    .dropdown{
+        padding-right: 0;
+    }
+
+    .Menu-banner .Menu-banner-text span{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .Menu-banner .Menu-banner-text h1{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .delivery-order .delivery-heading h2{
+        font-size: 39px;
+    }
+
+    .recipes .container .row .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .banner .slide-style1 .banner-content .para{
+        padding: 0 160px;
+    }
+
+       .banner .slide-style1 .banner-content h1{
+        font-size: 50px;    
+    }
+
+
+    .banner .slide-style1 .banner-content h2{
+        font-size: 50px;    
+    }
+
+    .banner .slide-style1 .banner-content h3{
+        font-size: 50px;    
+    }
+
+    .banner .slide-style1 .banner-content h4{
+        font-size: 50px;    
+    }
+
+    .banner .slide-style1 .banner-content span{
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    .banner .slide-style1 .banner-content .banner-btn a{
+        font-size: 17px;
+    }
+
+    .discover .discover-text h3{
+        font-size: 35px;
+    }
+
+    .restaurant .container .row .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .restaurant .gallery-card-1 .images img{
+        height: 300px;
+    }
+
+    .restaurant .slide-style3 .images img{
+        height: 400px;
+    }
+
+    .contact-us{
+        padding: 50px 0 0 0 ;
+    }
+
+    .contact-us #tel-card{
+        padding: 39px 10px;
+    }
+    
+    .contact-us .container .row .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin-bottom: 20px;
+    }
+
+
+    .contact-us .contact-us-text h2{
+        font-size: 30px;
+    }
+
+    .contact-us .contact-us-title ul li{
+        font-size: 14px;
+    }
+
+    .booking-heading h2{
+        font-size: 40px;
+    }
+    
+    .booking .form-data-text .heading span{
+        font-size: 18px;
+    }
+    
+    .booking .form-data-text .heading h3{
+        font-size: 30px;
+    }
+    
+    .resturant-time-main h3{
+        font-size: 30px;
+    }
+    
+    .booking .resturant-open-days{
+        font-size: 18px;
+    }
+    
+    .booking .resturant-foodtime-1{
+        font-size: 18px;
+    }
+    
+    .booking .resturant-slot-1{
+        font-size: 18px;
+    }
+    
+    .booking .resturant-open{
+        font-size: 26px;
+    }
+
+
+    .team{
+        padding: 80px 0 60px 0;
+    }
+
+    .team .container .team-row2 .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin-bottom: 20px;
+    }
+
+    .choose .container .row .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .choose .choose-text h2{
+        font-size: 22px;
+    }
+
+    .experience .experience-text .experience-heading{
+        font-size: 35px;
+    }
+
+    .testimonial .testimonial-text h2{
+        font-size: 30px;
+    }
+
+    .experience .experience-text .list{
+        font-size: 15px;
+    }
+    
+
+.app-store .app-store-text .app-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-store .app-store-text .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-store .app-store-text h3{
+    text-align: center;
+}
+
+.app-store .app-store-text .app-btn .app-btn-1 a{
+    font-size: 20px;
+}
+
+.app-store .app-store-text .app-btn .app-btn-2 a{
+    font-size: 20px;
+}
+
+
+.app-store .app-store-text .app-btn .app-btn-1{
+    width: 70%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-store .app-store-text .app-btn .app-btn-2{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.download-app .download-app-text h3{
+    font-size: 26px;
+    text-align: center;
+}
+
+.download-app .container .row .col50{
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.download-app .download-app-text{
+    text-align: center;
+}
+
+.download-app .download-app-text .download-title .app-store-text .download-no{
+    margin-bottom: 10px;
+}
+
+.download-app .download-app-text .download-title .app-store-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.download-app .download-app-text .food-app{
+    text-align: center;
+    margin-bottom: 10px}
+
+.download-app .container .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipes .recipes-row3 .col50{
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.recipes #menu-list-2{
+    margin-top: -100px;
+}
+
+.delivery-order .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery-order .container .row .col50{
+    max-width: 100%;
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+.delivery-order .delivery-order-text .top-heading h3{
+    font-size: 28px;
+}
+
+
+.delivery-order .delivery-order-text .order-price{
+    left: 70%;
+    top: 15.5%;
+}
+
+    .footer-upper .col20{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .footer-upper .col30{
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .footer-upper{
+        padding-left: 30px;
+    }
+
+    .footer-upper .container .row #footer-1{
+        margin-bottom: 20px;
+    }
+
+    .footer-upper .container .row #footer-2{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen  and (max-width:767px){
+    .banner .slide-style1 .banner-content .para{
+        padding: 0 60px;
+    }
+
+    .banner .slide-style1 .banner-content h1{
+        font-size: 40px;    
+    }
+
+    .banner .slide-style1 .banner-content h2{
+        font-size: 40px;    
+    }
+
+    .banner .slide-style1 .banner-content h3{
+        font-size: 40px;    
+    }
+
+    .banner .slide-style1 .banner-content h4{
+        font-size: 40px;    
+    }
+
+    .banner #swiper-img-1{
+        min-height: 700px;
+    }
+
+    .banner #swiper-img-1{
+        min-height: 700px;
+    }
+
+    .banner #swiper-img-1{
+        min-height: 700px;
+    }
+
+    .banner #swiper-img-1{
+        min-height: 700px;
+    }
+
+    .recipes .container .recipes-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .recipes .container .recipes-row2 .recipes-text{
+        text-align: center;
+    }
+
+    .booking .container .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .booking .container .row .col40{
+        max-width: 90%;
+        flex: 0 0 90%;
+        margin-bottom: 30px;
+    }
+
+    .booking .col40 .resturant-time-main{
+        padding: 35px 20px 35px 20px;
+    }
+
+    .booking .container .row .col60{
+        max-width: 90%;
+        flex: 0 0 90%;
+    }
+
+    .booking-heading h2{
+        font-size: 32px;
+    }
+
+    .booking .form-data-text .heading h3{
+        font-size: 26px;
+    }
+    
+    .resturant-time-main h3{
+        font-size: 26px;
+    }
+
+
+    .restaurant .gallery-card-1 .images img{
+        height: 250px;
+    }
+
+    .restaurant .slide-style3 .images img{
+        height: 400px;
+    }
+    
+    .booking .form-data-text .heading span{
+        font-size: 18px;
+    }
+    
+
+    .booking .resturant-open-days{
+        font-size: 18px;
+    }
+    
+    .booking .resturant-foodtime-1{
+        font-size: 18px;
+    }
+    
+    .booking .resturant-slot-1{
+        font-size: 18px;
+    }
+    
+    .booking .resturant-open{
+        font-size: 22px;
+    }
+
+
+    .contact-us .contact-us-text h2{
+        font-size: 25px;
+    }
+
+
+    .footer-upper .footer-upper-text .footer-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .special-offer .special-images{
+        animation:none 6s linear infinite;
+    }
+
+    .footer-play-store .store{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-upper .categories .categories-1 ul li a{
+         display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; 
+        line-height: 2;
+    }
+
+    .footer-upper .links ul li a{
+        line-height: 2;
+    }
+
+    .footer-upper .links-1 ul li{
+        text-align: center;
+    }
+
+     .footer-upper  .yellow-arrow{
+        display: none;
+     }
+
+    .testimonial .testimonial-card{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .app-store .app-store-text .app-btn .app-btn-1{
+        width: 70%;
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .app-store .container .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app-store .container .row .col50{
+        max-width: 100%;
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .app-store .app-store-text .btn{
+        margin-bottom: 10px;
+    }
+
+    .app-store .app-store-text .app-btn .app-btn-2{
+        font-size: 20px;
+        width: 70%;
+    }
+
+    .app-store .app-store-text .app-btn{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .app-store .app-images{
+        margin-bottom: 20px;
+    }
+
+    .special-offer .container .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .special-offer .special-images{
+        margin-bottom: 20px;
+    }
+
+    .special-offer .container .row .col50{
+        max-width: 100%;
+        flex: 0 0 100%;
+        width: 100%;
+        text-align: center;
+    }
+
+    .special-offer{
+            padding: 40px 0 160px 0;
+    }
+
+    .special-offer .special-offer-text h3{
+        font-size: 25px;
+    }
+
+    .discover .container .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .discover .container .row .col50 .discover-images{
+        margin-bottom: 20px;
+    }
+
+    .discover .container .row .col50{
+        max-width: 100%;
+        flex: 0 0 100%;
+        text-align: center;
+    }
+
+    .discover .discover-text .chef-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .discover .discover-text .chef-btn .btn-1 a{
+        padding: 10px 36px;
+    }
+
+    .discover .discover-text .chef-btn .btn-2 a{
+        padding: 10px 36px;
+    }
+
+    .discover .discover-text h3{
+        font-size: 31px;
+    }
+
+    .delivery-order .col55  .images img {
+        -webkit-animation-name: none;
+    }
+
+    .delivery-order .delivery-order-text .order-price{
+        left: 60%;
+        top: 15.5%;
+    }
+
+    .experience .experience-text .experience-heading{
+        font-size: 31px;
+    }
+
+    .testimonial .container .testimonial-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonial{
+        padding-bottom: 30px;
+    }
+
+    .testimonial .container .testimonial-row2 .col45{
+        max-width: 90%;
+        flex: 0 0 90%;
+    }
+
+    .testimonial .container .testimonial-row2 .col55{
+        max-width: 90%;
+        flex: 0 0 90%;
+    }
+
+    .testimonial .container .testimonial-row2 .col55 .master-chef-img{
+        margin-top: 30px;
+    }
+
+    .testimonial .testimonial-text{
+        margin-bottom: 30px;
+    }
+
+    .testimonial .testimonial-text h2{
+        font-size: 30px;
+    }
+
+    .experience .container .row .col25{
+        max-width: 50%;
+        flex: 0 0 50%;
+        margin-bottom: 20px;
+    }
+
+    .experience .container .row .col25{
+        max-width: 90%;
+        flex: 0 0 90%;
+    }
+
+    .delivery-order .delivery-order-text .top-heading h3{
+        font-size: 22px;
+    }
+
+    .delivery-order .delivery-order-text .order .order-call .order-heading{
+        font-size: 16px;
+    }
+
+    .form-data .container .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-data .container .row .col50{
+        max-width: 100%;
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .form-data .map-location{
+        margin-top: 30px;
+    }
+
+    .form-data .map-location iframe{
+        width: 100%;
+    }
+
+    .footer-upper{
+        padding-left: 0;
+    }
+
+    .footer-upper .col20{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .footer-upper .footer-upper-text{
+        text-align: center;
+    }
+
+    .footer-upper .footer-upper-text .social-icons ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-upper .links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-upper .categories{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .footer-upper .contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-upper .col30{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+}
+
+@media screen  and (max-width:575px){
+    .banner .slide-style1 .banner-content .para{
+        padding: 0 5px;
+    }
+
+    .banner .slide-style1 .banner-content h1{
+        font-size: 40px;    
+    }
+    
+    .delivery-order .delivery-heading h2{
+        font-size: 25px;
+    }
+
+    .footer-upper .contact .social-info .social-title a{
+        margin-bottom: 15px;
+    }
+
+    .footer-upper .contact .info{
+        margin-top: 15px;
+    }
+
+    .footer-upper .contact .social-info .social-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .recipes .recipes-data-list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .recipes .container .recipes-row3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .recipes .container .recipes-row3 .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .booking-heading h2{
+        font-size: 26px;
+    }
+
+    .booking .form-data-text .heading h3{
+        font-size: 20px;
+    }
+
+    .restaurant .restaurant-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .restaurant .restaurant-row2 .col33{
+        max-width: 100%;
+        flex: 0 0 100%;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .restaurant .restaurant-row3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .restaurant .swiper-btn  .swiper-button-prev{
+        top: 52%;
+        position: absolute;
+        left: 0;
+        height: 60px;
+        width: 60px;
+        color: rgba(255, 255, 255, 1);
+        background-color: red;
+        border-radius: 50%;
+        padding: 2px 20px;
+        border: 1px solid black;
+    }
+
+    .restaurant .swiper-btn  .swiper-button-next{
+        position: absolute;
+        right: 0;
+        top: 52%;
+        z-index: 50;
+        height: 60px;
+        width: 60px;
+        color: rgba(255, 255, 255, 1);
+        background-color: red;
+        border-radius: 50%;
+        padding: 2px 20px;
+        border: 1px solid black;
+    }
+
+    .contact-us .contact-us-text{
+        margin-bottom: 20px;
+    }
+
+    .contact-us #contact-us-row2{
+        margin-bottom: -40px;
+    }
+    
+    .resturant-time-main h3{
+        font-size: 20px;
+    }
+
+    .restaurant .restaurant-text h2{
+        font-size: 22px;
+    }
+
+    .discover .discover-text .chef-btn .btn-1{
+        width: 100%;
+    }
+
+    .discover .discover-text .chef-btn .btn-2{
+        width: 100%;
+    }
+
+    .delivery-order .delivery-order-text .order-price{
+        left: 60%;
+        top: 17%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .delivery-order .container .row .col50{
+        max-width: 100%;
+        flex: 0 0 100%;
+        width: 100%;
+    }
+
+    .discover-heading-text h2{
+        font-size: 35px;
+    }
+
+    .delivery-order .delivery-order-text  .order-price .order-btn{
+        display: flex;
+        margin-top: -20px;
+        margin-left: 0px;
+    }
+
+    .delivery-order .delivery-order-text .top-heading{
+        padding-right: 0px;
+    }
+
+    .delivery-order .delivery-order-text  .order-price .order-price-text .price-heading{
+        font-size: 16px;
+    }
+
+    .delivery-order .delivery-order-text  .order-price .order-price-text  span{
+        font-size: 22px;
+    }
+
+    .delivery-order .delivery-order-text  .order-price .order-btn a{
+        padding: 10px 25px;
+    }
+
+    .contact-us .container .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-us .container #contact-us-row2 .col25{
+        max-width: 90%;
+        flex: 0 0 90%;
+        width: 100%;
+    }
+
+    .team .container .team-row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .team .container .team-row2 .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+        width: 90%;
+    }
+
+    .restaurant .container .row .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .choose .container .row .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .experience .container .row .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .app-store .app-store-text .app-btn .app-btn-1{
+        width: 100%;
+    }
+
+    .app-store .app-store-text .app-btn .app-btn-2{
+        width: 100%;
+    }
+}
+
+
+@media screen  and (max-width:480px){
+    
+    .banner .slide-style1 .banner-content h1{
+        font-size: 30px;    
+    }
+
+    .banner .slide-style1 .banner-content h2{
+        font-size: 30px;    
+    }
+
+    .banner .slide-style1 .banner-content h3{
+        font-size: 30px;    
+    }
+
+    .banner .slide-style1 .banner-content h4{
+        font-size: 30px;    
+    }
+
+    .Menu-banner .Menu-banner-text span{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .Menu-banner .Menu-banner-text h1{
+        font-size: 28px;
+        line-height: 1;
+        text-align: center;
+    }
+
+    .recipes .recipes-text h2{
+        font-size: 20px;
+    }
+
+    .download-app .download-app-text h3{
+        font-size: 20px;
+    }
+
+    .recipes .menu-brunch-text .menu-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .recipes .menu-brunch-text .menu-list .brunch-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .team .team-text h2{
+        font-size: 22px;
+    }
+    
+.recipes .menu-brunch-text .menu-list .brunch-title .brunch-title-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.recipes .menu-brunch-text .menu-list .brunch-title .brunch-title-text p{
+    padding-right: 0;
+}
+
+.recipes .recipes-row2{
+    padding: 10px 0px;
+}
+
+
+.special-offer .special-offer-text .special-price{
+    font-size: 26px;
+}
+
+.special-offer .special-offer-text h3{
+    font-size: 20px;
+}
+
+.special-offer .special-offer-text .special-price del{
+    font-size: 18px;
+}
+
+.app-store .app-store-text .app-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.app-store .app-store-text h3{
+    font-size: 20px;
+}
+
+.app-store .app-store-text .app-btn-2{
+    margin-top: 20px;
+    width: 60%;
+}
+
+.delivery-order .delivery-order-text .top-heading{
+    text-align: center;
+}
+
+.delivery-order .delivery-order-text .order{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery-order .images{
+    margin-top: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delivery-order .delivery-order-text{
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+}
+
+.delivery-order .delivery-order-text .order-price{
+    left: 30%;
+    top: 40%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover .discover-text .chef-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.discover .discover-text .chef-btn .btn-1 a{
+    margin-right: 0;
+}
+
+.discover .discover-text .chef-btn .btn-1{
+    margin-bottom: 20px;
+}
+
+.discover .discover-text h3{
+    font-size: 25px;
+}
+
+.discover .discover-text p{
+    line-height: 1.2;
+}
+
+.download-app  .app-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-app  .app-btn .app-btn-1{
+    margin-bottom: 20px;
+}
+
+.download-app  .app-btn-1 span{
+    font-size: 18px;
+}
+
+.download-app  .app-btn-2 span{
+    font-size: 18px;
+}
+
+.Home-banner .Home-banner-text span{
+    font-size: 33px;
+}
+
+.about-banner .about-banner-text span{
+    font-size: 33px;
+}
+
+.blog-banner .blog-banner-text span{
+    font-size: 33px;
+}
+
+.contact-banner .contact-banner-text span{
+    font-size: 33px;
+}
+
+.services-banner .services-banner-text span{
+    font-size: 33px;
+}
+
+.testimonial .testimonial-text h2{
+    font-size: 25px;
+}
+
+.testimonial .container .testimonial-row2 .col45{
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.form-data{
+    padding: 50px 0;
+}
+
+}
+
+
+@media screen  and (max-width:375px){
+    .delivery-order .delivery-order-text .order-price{
+        left: 20%;
+        top: 430px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .recipes .recipes-text h2{
+        font-size: 18px;
+    }
+
+    .delivery-order .delivery-order-text .top-heading h3{
+        font-size: 18px;
+    }
+
+    .delivery-order .delivery-order-text .order .order-call span{
+        font-size: 18px;
+    }
+    
+
+}
+
+
+@media screen  and (max-width:320px){
+    .recipes .recipes-data-list{
+        padding: 20px 40px;
+    }
+
+    .team .container .team-row2 .col25{
+        max-width: 100%;
+        flex: 0 0 100%;
+        width: 100%;
+    }
+}
