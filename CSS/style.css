@@ -1670,11 +1670,11 @@ a{
     animation:spin 6s linear infinite;
 }
 
-/* @keyframes spin { 
+@keyframes spin { 
     100% { 
         transform:rotate(360deg); 
     } 
-}   */
+}  
 
 
 
