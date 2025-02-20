@@ -1190,6 +1190,7 @@ a{
 
   .discover .discover-text .chef-btn{
     display: flex;
+    margin-top: 20px;
   }
 
   .discover .discover-text .chef-btn .btn-1 a{
