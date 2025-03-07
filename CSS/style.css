@@ -346,7 +346,7 @@ a{
 .banner #swiper-img-1{
  min-height: 700px;
  width: 100%;
- background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/pizza-img-1.jpg);
+ background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/pizza-img-1.webp);
  background-position: center center;
  background-repeat: no-repeat;
  background-size: 100% 100%;
@@ -355,7 +355,7 @@ a{
 .banner #swiper-img-2{
     min-height: 700px;
     width: 100%;
-    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/pizza-img-2.jpg);
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/pizza-img-2.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -365,7 +365,7 @@ a{
    .banner #swiper-img-3{
     min-height: 700px;
     width: 100%;
-    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/pizza-img-3.jpg);
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/pizza-img-3.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -375,7 +375,7 @@ a{
    .banner #swiper-img-4{
     min-height: 700px;
     width: 100%;
-    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/pizza-img-6.jpg);
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/pizza-img-6.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -500,7 +500,7 @@ a{
  .Menu-banner{
     min-height: 700px;
     width: 100%;
-    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/menu-backgound-img-1.jpg);
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/menu-backgound-img-1.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -542,7 +542,7 @@ a{
 .Home-banner{
     min-height: 700px;
     width: 100%;
-    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/home-background-img-1.jpg);
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/home-background-img-1.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -583,7 +583,7 @@ a{
 .about-banner{
     min-height: 700px;
     width: 100%;
-    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/about-background-img-1.jpg);
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/about-background-img-1.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -624,7 +624,7 @@ a{
 .services-banner{
     min-height: 700px;
     width: 100%;
-    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/services-background-img-1.jpg);
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/services-background-img-1.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -664,7 +664,7 @@ a{
 .blog-banner{
     min-height: 700px;
     width: 100%;
-    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/blog-background-img-11.jpg);
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/blog-background-img-11.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -704,7 +704,7 @@ a{
 .contact-banner{
     min-height: 700px;
     width: 100%;
-    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/contact-backgound-img-1.jpg);
+    background: linear-gradient(rgb(22,22,22,0.5),rgb(22,22,22,0.7)),url(../IMG/contact-backgound-img-1.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
